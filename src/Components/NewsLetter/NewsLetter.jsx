@@ -15,3 +15,5 @@ const NewsLetter = () => {
 }
 
 export default NewsLetter
+
+// 1hr 12mins
