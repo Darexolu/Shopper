@@ -2,6 +2,8 @@ import React, { useContext } from 'react'
 import {ShopContext} from '../Context/ShopContext'
 import { useParams } from 'react-router-dom';
 import Breadcrumbs from '../Components/Breadcrumbs/Breadcrumbs';
+import ProductDisplay from '../Components/ProductDisplay/ProductDisplay';
+import DescriptionBox from '../Components/DescriptionBox/DescriptionBox';
 
 const Product = () => {
   const {all_product} = useContext(ShopContext);
@@ -11,8 +13,12 @@ const Product = () => {
   return (
     <div>
       <Breadcrumbs product={product}/>
+      <ProductDisplay product={product}/>
+      <DescriptionBox/>
     </div>
   )
 }
 
 export default Product
+
+// 1hr 54mins
