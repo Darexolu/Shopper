@@ -49,7 +49,7 @@ const AddProduct = () => {
         })
     }
   }
-
+//7hrs (adminpanel now adding product to db)
   return (
     <div className='add-product'>
       <div className="addproduct-itemfield">
